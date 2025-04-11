@@ -1,0 +1,37 @@
+lab1:	lab1.c
+	gcc -o lab1 lab1.c
+	./lab1
+
+lab2:	lab2.c
+	gcc -o lab2 lab2.c
+	./lab2
+
+lab3:	lab3.c
+	gcc -o lab3 lab3.c
+	./lab3
+
+lab4:	lab4.c	lab4.h
+	gcc -o lab4 lab4.c lab4.h
+	./lab4
+
+lab5:	lab5.c	lab5.h
+	gcc -o lab5 lab5.c lab5.h
+	./lab5
+
+lab6:	lab6.c	lab6.h
+	gcc -o lab6 lab6.c lab6.h
+	./lab6
+
+lab7:	lab7.c	lab7.h
+	gcc -o lab7 lab7.c lab7.h
+	./lab7
+
+lab8:	lab8main.c  lab8list.c  lab8file.c lab8.h
+	gcc -o lab8 lab8main.c lab8list.c lab8file.c lab8.h
+	./lab8
+
+lab9:	lab9main.c  lab9list.c  lab9file.c lab9.h
+	gcc -o lab9 lab9main.c lab9list.c lab9file.c lab9.h
+
+lab10:	lab10main.c lab10list.c lab10file.c lab10.h
+	gcc -o lab10 lab10main.c lab10list.c lab10file.c lab10.h -lpthread
