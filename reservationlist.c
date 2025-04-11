@@ -1,4 +1,4 @@
-#include "lab10.h"
+#include "reservation.h"
 #include <string.h>
 #include <stdlib.h>
 #include <sys/types.h>
