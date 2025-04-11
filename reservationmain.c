@@ -1,8 +1,8 @@
-// lab 10
+// reservation
 // winter 2023
 // name: Samia Ahmer
 
-#include "lab10.h"
+#include "reservation.h"
 
 #include <string.h>
 #include <stdlib.h>
