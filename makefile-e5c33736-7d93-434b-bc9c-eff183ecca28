@@ -33,5 +33,5 @@ lab8:	lab8main.c  lab8list.c  lab8file.c lab8.h
 lab9:	lab9main.c  lab9list.c  lab9file.c lab9.h
 	gcc -o lab9 lab9main.c lab9list.c lab9file.c lab9.h
 
-lab10:	lab10main.c lab10list.c lab10file.c lab10.h
-	gcc -o lab10 lab10main.c lab10list.c lab10file.c lab10.h -lpthread
+lab10:	reservationmain.c reservationlist.c reservationfile.c reservation.h
+	gcc -o reservation reservationmain.c reservationlist.c reservationfile.c reservation.h -lpthread
